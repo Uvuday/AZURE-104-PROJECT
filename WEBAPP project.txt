@@ -1,0 +1,7 @@
+https://wanproject-testing.scm.azurewebsites.net:443/wanproject.git 
+
+git clone https://github.com/Azure-Samples/php-docs-hello-world 
+
+git remote add [deployment_user_name] [git_clone_url] 
+
+git push [deployment_user_name] master

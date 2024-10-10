@@ -1,0 +1,8 @@
+VNET1: 192.168.0.0/16 
+
+0-65535 any port number 
+ 
+ PA
+What is a managed identity in Azure?
+How managed identities for Azure resources work with Azure ...
+Managed identities for Azure resources provide Azure services with an automatically managed identity in Microsoft Entra ID. You can use this identity to authenticate to any service that supports Microsoft Entra authentication, without having credentials in your code.

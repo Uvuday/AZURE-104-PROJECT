@@ -1,0 +1,24 @@
+{
+  "Name": "Compute Contributer",
+  "Id": "cadb4a5a-4e7a-47be-84db-05cad13b6789",
+  "IsCustom": true,
+  "Description": "Can monitor resources, can start machines, can create support ticket",
+  "Actions": [
+    "Microsoft.Storage/*/read",
+    "Microsoft.Network/*/read",
+    "Microsoft.Compute/*/read",
+    "Microsoft.Compute/virtualMachines/start/action",
+    "Microsoft.Compute/virtualMachines/restart/action",
+    "Microsoft.Authorization/*/read",
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Insights/alertRules/*",
+    "Microsoft.Insights/diagnosticSettings/*",
+    "Microsoft.Support/*"
+  ],
+  "NotActions": [
+
+  ],
+  "AssignableScopes": [
+    "/subscriptions/b12f2dc8-3f5a-46c6-a65e-16b6f4462513/resourceGroups/OSS_rg1_HQ"
+  ]
+}
